@@ -4009,6 +4009,10 @@ strong {
   font-weight: 600;
 }
 
+subheading {
+    font-weight: 1600;
+}
+
 del {
   text-decoration-line: line-through;
 }
@@ -18623,8 +18627,8 @@ body[data-bg-image] {
   background-image: url('../images/products/cip-image-01.jpg');
 }
 
-.head-image-sahaya{
-  background-image: url('../images/products/sahaya_ticketing.jpg');
+.head-image-irahelpdesk{
+  background-image: url('../images/products/irahelpdesk.jpg');
 }
 
 .head-image-rob {
@@ -18655,6 +18659,9 @@ body[data-bg-image] {
     background-image: url('../images/products/epicode-iracpa.jpg');
 }
 
+.head-image-sahaya {
+    background-image: url('../images/products/epicode-sahaya.jpg');
+}
 
 .head-image-iradialer {
     background-image: url('../images/products/epicode-iradialer.jpg');
@@ -18671,9 +18678,14 @@ body[data-bg-image] {
 .head-image-invoiceprocessing {
     background-image: url('../images/products/epicode-invoice-processing.jpg');
 }
+
+.head-image-botstream {
+    background-image: url('../images/products/epicode-botstream.jpg');
+}
+
 /* ------------Customized by Amit------------------- */
 
-/* ------------Feature Comparison Table for Sahaya------------------- */
+/* ------------Feature Comparison Table for IraHelpDesk------------------- */
 .comparison {
   max-width:1140px;
   margin:0 auto;
