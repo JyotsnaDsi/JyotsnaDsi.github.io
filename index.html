@@ -13,26 +13,33 @@
     <!-- Stylesheets & Fonts -->
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/fontawesome.css" rel="stylesheet">
     <!--Pageloader plugin files-->
     <link href="plugins/pageloader/pageloader.css" rel="stylesheet">
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166808848-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166808848-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-	  gtag('config', 'UA-166808848-1');
-	</script>
+        gtag('config', 'UA-166808848-1');
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.js" integrity="sha512-sSWQXoxIkE0G4/xqLngx5C53oOZCgFRxWE79CvMX2X0IKx14W3j9Dpz/2MpRh58xb2W/h+Y4WAHJQA0qMMuxJg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.css" integrity="sha512-uf06llspW44/LZpHzHT6qBOIVODjWtv4MxCricRxkzvopAlSWnTf6hpZTFxuuZcuNE9CBQhqE0Seu1CoRk84nQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/theme/neo.min.css" integrity="sha512-n6DpN0Uo6L9yIU4MeX5hhnCX6NejvEBxXQ2GNmBl8febWyt1Fdh7C4EiDQvBeGtFOaOIBxZAf/VQZjjUvs04ng==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/javascript/javascript.min.js" integrity="sha512-Cbz+kvn+l5pi5HfXsEB/FYgZVKjGIhOgYNBwj4W2IHP2y8r3AdyDCQRnEUqIQ+6aJjygKPTyaNT2eIihaykJlw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body data-icon="14">
     <!-- Body Inner -->
     <script type="text/javascript" src="js/head-nav.js"></script>
     <!-- end: Header -->
+
     <!-- Inspiro Slider -->
-    <div id="slider" class="inspiro-slider slider-fullscreen dots-creative" data-fade="true">
+    <div id="slider" class="inspiro-slider dots-creative" data-fade="true">
         <!-- Slide 1 -->
         <div class="slide kenburns" data-bg-video="video/call-center.mp4">
             <div class="bg-overlay"></div>
@@ -42,11 +49,36 @@
                     <h3 style="font-size: 30px !important; ">“Embrace the Transition towards Hybrid and Pure Cloud communication services to manage your customer engagement” </h3>
                     <p class="text-small" style="line-height: 28px;">At Epicode, we strive to unlock your business’s true potential and improve your competitive advantage using technology. Optimize and enhance the overall efficiency of your customer outreach by partnering with us.</p>
                     <!-- <div><a href="#" class="btn scroll-to">Explore more</a></div> -->
+                    <div>
+                        <a href="products.html" class="btn scroll-to">Explore more</a>
+                        <a href="contact-us.html" class="btn scroll-to">Contact Us</a>
+                    </div>
                     <!-- end: Captions -->
                 </div>
             </div>
         </div>
         <!-- end: Slide 1 -->
+        <div class="slide" data-bg-image="images/epicode-botstream.jpg">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="slide-captions text-left text-light col-lg-8">
+                    <!-- Captions -->
+                    <div class="hero">
+                        <div class="hero--content">
+                            <span>Build reliable, scalable Voice Applications</span>
+                        </div>
+                    </div>
+                    <p class="text-small" style="line-height: 28px;">Start adding voice capabilities today to your Conversational AI applications using developer friendly APIs</p>
+                    <div>
+                        <a href="products/epicode-botstream.html" class="btn scroll-to">Explore more</a>
+                        <a href="contact-us.html" class="btn scroll-to">Contact Us</a>
+                    </div>
+                    <!-- end: Captions -->
+
+                </div>
+            </div>
+        </div>
+
         <!-- Slide 2 -->
         <div class="slide" data-bg-video="video/people-working.mp4">
             <div class="bg-overlay"></div>
@@ -55,36 +87,71 @@
                     <!-- Captions -->
                     <h3 style="font-size: 40px !important; width: 50%;">“Making a positive difference through innovation” </h3>
                     <p class="text-small" style="line-height: 28px !important;">Epicode’s Products and Solutions are designed to address complex technical challenges, are highly scalable and strenuously tested to meet the demanding performance requirements of today’s business processes.</p>
-                    <!-- <div><a href="#" class="btn scroll-to">Explore more</a></div> -->
+                    <div>
+                        <a href="products.html" class="btn scroll-to">Explore more</a>
+                        <a href="contact-us.html" class="btn scroll-to">Contact Us</a>
+                    </div>
                     <!-- end: Captions -->
                 </div>
             </div>
         </div>
+
+
+        <!-- end: Slide 1 -->
+        <!-- Slide 2 -->
         <!-- end: Slide 2 -->
+        <div class="slide" data-bg-image="images/epicode-iracpa.jpg">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="slide-captions text-left text-light col-lg-8">
+                    <!-- Captions -->
+                    <div class="hero">
+                        <div class="hero--content">
+                            <span>Increase Agent efficiency</span>
+                        </div>
+                    </div>
+                    <p class="text-small" style="line-height: 28px;">Use Call Progress Analysis APIs to determine the outcome of connected call leading to increased conversion rate</p>
+                    <div>
+                        <a href="products/epicode-iracpa.html" class="btn scroll-to">Explore more</a>
+                        <a href="contact-us.html" class="btn scroll-to">Contact Us</a>
+                    </div>
+                    <!-- end: Captions -->
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
     </div>
+
+
+
     <!--end: Inspiro Slider -->
-    
     <!-- Introduction content -->
     <section class="container">
         <div class="row">
             <div class="col-lg-6">
-                <h1 class="icon-large margin-t-35px">Introducing the next generation Business Process Automation Platform</h1>
+                <h1 class="icon-large margin-t-35px">Unlock the power of voice with our voice APIs</h1>
                 <!-- <h3 class="margin-bottom-35px text-title-large text-grey-3 text-capitalize">Epicode CIP - The Unified Customer Interaction Platform</h3> -->
                 <p class="margin-bottom-35px">
-                    As more and more enterprises realize the importance of sharing information across their business applications and implementing process automation to improve efficiency, it becomes imperative to choose a technology platform that caters to their unique business requirements.<br/>Epicode’s BPA platform "Robotasker" is designed for  multi-environment deployments and can be provided either on a SAAS model or deployed on the customer’s private cloud or on their existing on-premise data centers. </p>
+                    As more and more enterprises realize the importance of adding voice capabilities to their business applications , it becomes imperative to choose a technology platform that caters to their unique business requirements and create applications that can understand natural language, recognize speech, and respond to voice commands.<br />Epicode’s VoiceAPI platform "BotStream" is designed for  multi-environment deployments and can be provided either on a SAAS model or deployed on the customer’s private cloud or on their existing on-premise data centers.
+                </p>
                 <div class="row">
-                <a href="products/epicode-robotasker.html" class="btn btn-lg border-2 border-radius-30 margin-top-20px text-main-color padding-lr-30px">KNOW MORE</a>
+                    <a href="products/epicode-botstream.html" class="btn btn-lg border-2 border-radius-30 margin-top-20px text-main-color padding-lr-30px">KNOW MORE</a>
                     <div class="grid-description" style="padding-left: 25px;">
                         <!--<a href="epicode-demo.html" data-lightbox="ajax" class="btn btn-lg border-2 border-radius-30 margin-top-20px btn btn-warning padding-lr-30px">Get a Demo</a>-->
                         <!-- <a href="page-ajax-example.html" ><i class="fas fa-external-link-square-alt"></i></a> -->
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-lg-6">
                 <div><img src="images/products/cip_laptop.jpg" alt=""></div>
             </div>
-            
+
         </div>
     </section>
     <section class="container"><div class="seperator"><i class="fa fa-chevron-down"></i></div></section>
@@ -96,214 +163,183 @@
 
     <div class="container">
         <div class="heading-text heading-line text-center">
-            <h4>EPICODE Solutions</h4>
+            <h4>Our Products</h4>
         </div>
         <div class="text-center space1">
             <span>Epicode’s  products form the core of its solution offering. The “Epicode Solution framework” supports different types of third party integration and deployment architectures depending on the business case, while meeting the local regulatory requirements of the country where it is being deployed.</span>
         </div>
-        <!-- Portfolio -->
-        <div id="portfolio" class="grid-layout portfolio-3-columns " data-margin="20">
-            <!-- portfolio item -->
-            <div class="portfolio-item no-overlay img-zoom ct-photography ct-media ct-branding ct-marketing ct-webdesign ">
-                <div class="portfolio-item-wrap post-item-wrap">
-                    <div class="portfolio-image">
-                        <a href="solutions/epicode-work-from-home.html"><img src="images/blog/blog-img-06.jpg" alt=""></a>
-                    </div>
-                    <div class="portfolio-description">
-                        <br>
-                        <h3 align="left">IraHelpDesk</h3>
-                        <!-- <span>Work From Home</span> --><br>
-                                                            <p>
-                                                                An advanced ticketing software that can be deployed either on-premise or in the private cloud infrastructure of medium and large enterprises.
-                                                                <!-- Epicode’s WFH offers the flexibility of choosing different call routing options on the fly... --><br><a href="products/epicode-irahelpdesk.html" style="color: #0000ff;"> Find out more...</a>
-                                                            </p>
 
-                    </div>
-                </div>
-            </div>
-            <!-- end: portfolio item -->
-            <!-- portfolio item -->
-            <div class="portfolio-item no-overlay img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
-                <div class="portfolio-item-wrap">
-                    <div class="portfolio-image">
-                        <a href="#"><img src="images/products/hybrid-cloud.jpg" alt=""></a>
-                    </div>
-                    <div class="portfolio-description">
-                        <br>
-                        <h3 align="left">IraPDA</h3>
-                        <!--  <span>Fullform</span> --><br>
-
-                                                       <p>
-                                                           Epicode’s CTE range of middleware products enable business applications like CRM, Lead management Systems and Campaign managers with Auto dialer, click to call and Call Progress Analysis ( CPA) capabilities through easy to use API integration.
-                                                           <!-- However,  data security and government regulations pose a challenge. Find out how Epicode’s HCIP solution can help enterprises to address these concerns. --><br><a href="products/epicode-irapda.html" style="color: #0000ff;"> Find out more...</a>
-                                                       </p>
-
-                    </div>
-                </div>
-            </div>
-            <!-- end: portfolio item -->
-            <!-- portfolio item -->
-            <div class="portfolio-item no-overlay img-zoom ct-photography ct-media ct-branding ct-marketing ct-webdesign">
-                <div class="portfolio-item-wrap">
-                    <div class="portfolio-image">
-                        <a href="#"><img src="images/products/iradialer.jpg" alt=""></a>
-                    </div>
-                    <div class="portfolio-description">
-                        <br>
-                        <h3 align="left">IraDialer - <span style="font-style: italic;"> The API based Dialer for the Cloud</span></h3>
-                        <!-- <span>Fullform</span> --><br>
-                        <p>IraDialer, part of  Epicode’s “ Cloud Telephony Enablers” is an API based dialer software that can seamlessly integrate with SaaS applications like CRM, LMS, Campaign Managers, etc to handle outbound voice campaigns.
-                            <!-- CRM, Campaign Manager, LMS and many such customer engagement solutions is evolving. IraDialer, part of  Epicode’s “ Cloud Telephony Enablers” is an API based dialer software that can be seamlessly integrated with such applications to handle outbound voice campaigns... --><br><a href="products/epicode-iradialer.html" style="color: #0000ff;"> Find out more...</a></p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- end: portfolio item -->
-        </div>
-        <!-- end: Portfolio -->
     </div>
-    <div class="col-lg-8 m-b-60  center">
-        <div class="heading-text heading-section text-center">
-            <a href="products.html" class="btn btn-lg border-2 border-radius-30 margin-top-20px text-main-color padding-lr-30px">Know more <i class="icon-chevron-right"></i></a>
-        </div>
-    </div>
-    <!--  <div class="seperator"><i class="fa fa-chevron-down"></i></div>
-    <hr class="space"> class="btn btn-light btn-creative btn-icon-holder btn-shadow btn-light-hover"-->
-    <!-- end: Solutions Section -->
-    <section class="container">
-    <div class="seperator"><i class="fa fa-chevron-down"></i></div>
+    <section class="page-contain">
+        <a href="products/epicode-botstream.html" class="data-card">
+            <h3>BotStream</h3>
+            <h4>Build intelligent call flows using powerful REST APIs</h4>
+            <p></p>
+            <span class="link-text">
+                Know more
+                <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD" />
+                </svg>
+            </span>
+        </a>
+        <a href="products/epicode-iracpa.html" class="data-card">
+            <h3>IraCPA</h3>
+            <h4>Achieve fast, accurate detection of dialed calls </h4>
+            <p></p>
+            <span class="link-text">
+                Know more
+                <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD" />
+                </svg>
+            </span>
+        </a>
+        <a href="products/epicode-iradialer.html" class="data-card">
+            <h3>IraDialer</h3>
+            <h4>Enable outbound dialing to the campaign managers</h4>
+            <p></p>
+            <span class="link-text">
+                Know more
+                <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD" />
+                </svg>
+            </span>
+        </a>
+        <a href="products/epicode-irapda.html" class="data-card">
+            <h3>IraPDA</h3>
+            <h4>Increase agent productivity through a cost effective predictive dialer algorithm </h4>
+            <p></p>
+            <span class="link-text">
+                Know more
+                <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD" />
+                </svg>
+            </span>
+        </a>
     </section>
-    <!-- Categories Section -->
-    <div class="heading-text heading-line text-center">
-        <h4>Featured Solution</h4>
-    </div>
-    <!-- <div class="text-center space"> -->
-    <!-- <span>Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor. The most happiest time of the day!. Morbi sagittis, sem quis lacinia faucibus. </span> -->
-    </div>
-
-
-
-
-    <section class="fullscreen" data-bg-image="images/epicode-irahive.jpg">
-        <div class="bg-overlay" data-style="4"></div>
-        <div class="shape-divider" data-style="6" data-position="top" data-flip-vertical="true"></div>
-        <div class="shape-divider" data-style="6"></div>
-        <div class="container">
+    <section class="container"><div class="seperator"><i class="fa fa-chevron-down"></i></div></section>
+    <!-- features list section -->
+    <div class="heading-text heading-line text-light" style="padding-top: 10px;">
+        <section data-bg-image="images/epicode-product-benchmarks.jpg">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-12">
-                    <h2 class="font-weight-800" style="color:#ffffff!important;">BotStream </h2>
-                    <span style="font-size: 20px;">
-                        <p style="color:#ffffff!important; font-size: 20px;">A bidirectional voice streamer that interfaces telephony services with conversational voice AI applications. It includes an API Dialer, Call recording, Conference module, Trunk manager, QOS monitor and CPA.  </p>
-                        <p style="color:#ffffff!important; font-size: 20px;">It supports both Inbound and outbound voice traffic and can integrate with PSTN or any PBX over E1 or SIP protocol while communicating with the conversational AI application over WebSockets.  </p>
-                        <p style="color:#ffffff!important; font-size: 20px;">The high speed communication between the telephony switches and the VoiceAI engines is enabled via NATS platform.</p>
-                    </span>
-                    <a href="products/epicode-botstream.html" class="btn btn-light btn-outline btn-rounded">Know more</a>
+                <div class="col-lg-3">
+                    <div class="icon-box effect medium clean">
+                        <div class="icon"> <a href="#"><i class="far fa-lightbulb"></i></a> </div>
+                        <h3>INCREASED CONNECT RATE</h3>
+                        <p>35% increase in call connects</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="icon-box effect medium clean">
+                        <div class="icon"> <a href="#"><i class="fa fa-trophy"></i></a> </div>
+                        <h3>HIGHER DIALING RATE</h3>
+                        <p>2x call dials , 3x call connects <br /> with dedicated SIP trunks</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="icon-box effect medium clean">
+                        <div class="icon"> <a href="#"><i class="fa fa-thumbs-up"></i></a> </div>
+                        <h3>LOWER COST OF OWNERSHIP</h3>
+                        <p>Cloud deployments with ability to <br />scale as needed</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="icon-box effect medium clean">
+                        <div class="icon"> <a href="#"><i class="fa fa-star"></i></a> </div>
+                        <h3>30 MILLION+ CALLS</h3>
+                        <p>Avg. of 5 million calls/day dialed</p>
+                    </div>
                 </div>
             </div>
+        </section>
+    </div>
+    <!-- end: Solutions Section -->
+    <!-- Features Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h3 class="fw-bold text-primary text-uppercase">Why Choose Us</h3>
+                <h1 class="mb-0">We Are Here to Grow Your Business Exponentially</h1>
+            </div>
+
+            <div class="cards">
+                <div class="card card-1">
+                    <h2 class="card__title">Extensive Domain Knowledge</h2>
+                </div>
+                <div class="card card-2">
+                    <h2 class="card__title">Enterprise Grade Platform</h2>
+                </div>
+                <div class="card card-3">
+                    <h2 class="card__title">Cost Effective Solutions</h2>
+                </div>
+                <div class="card card-4">
+                    <h2 class="card__title">Flexible Pricing Model</h2>
+                </div>
+            </div>
+
+
         </div>
-    </section>
+    </div>
+    <!-- <section class="container"><div class="seperator"><i class="fa fa-chevron-down"></i></div></section> -->
 
-
-
-
-
-<!--<hr style="margin: 60px 0px 25px 0px;">
-     end: Categories Section -->
+    <!-- Features Start -->
+    <!--<hr style="margin: 60px 0px 25px 0px;">
+         end: Categories Section -->
     <!-- start: clients -->
-
     <!-- end: clients -->
     <!-- <div class="seperator"><i class="fa fa-chevron-down"></i></div> -->
     <!-- <hr class="space"> -->
-
     <!-- Blog -->
     <section id="page-content">
-        <div class="container">
-            <div class="heading-text heading-line text-center">
-                <h4>Trending Technologies</h4>
+        <div class="api_showcase">
+            <div id="api_code_container" class="container">
+                <textarea id="api_code_sample">
+nc = NATS()
+await nc.connect(nats_url)
+event = {
+"event_name": "request_make_call",
+"event_data": {
+      "gateway" : "sip_gw1",
+      "to_number" : "+919xxxxxx010"
+              }
+       }     
+reply = await nc.request("trial_site.botstream.request", bytes(json.dumps(event),'utf-8'), 5.0)        
+             </textarea>
             </div>
-            <div class="text-center space">
-                <span>Find out the latest technology updates from our Blogging team </span>
+            <div>
+                <h1 class="api_code_title">Get started with VoiceAPIs</h1>
+                <ul>
+                    <li><h4 class="api_code_description">Flexible, developer friendly APIs</h4></li>
+                    <li><h4 class="api_code_description">Integrate with your existing app in minutes.</h4></li>
+                    <li><h4 class="api_code_description">Get access to media streams in real time <br/>for sentiment analysis, transcription services</h4></li>
+                </ul>
+                <p><a href="contact-us.html" class="btn scroll-to">Try it free</a></p>
             </div>
-            <!-- Blog -->
-                <div id="blog" class="grid-layout post-3-columns m-b-30" data-item="post-item">
-					<!-- Post item-->
-                    <div class="post-item border">
-                        <div class="post-item-wrap">
-                            <div class="post-image">
-                                <a href="blog/leveraging-social-media-for-customer-engagement.html">
-                                    <img alt="" src="images/blog/blog-img-04.jpg">
-                                </a>
-                            </div>
-                            <div class="post-item-description">
-                                <span class="post-meta-date"><i class="fa fa-calendar"></i>Mar 01, 2021</span>
-                                <h2><a href="blog/leveraging-social-media-for-customer-engagement.html">Leveraging Social Media For Customer Engagement</a></h2>
-                                <p>Companies can no longer keep customer service in silos as consumers are trying new experiences and social media is the frontrunner.</p>
-                                <a href="blog/leveraging-social-media-for-customer-engagement.html" class="item-link">Read More <i class="icon-chevron-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end: Post item-->
-					
-					<!-- Post item-->
-                    <div class="post-item border">
-                        <div class="post-item-wrap">
-                            <div class="post-image">
-                                <a href="blog/the-evolution-of-API.html">
-                                    <img alt="" src="images/blog/blog-img-05.jpg">
-                                </a>
-                            </div>
-                            <div class="post-item-description">
-                                <span class="post-meta-date"><i class="fa fa-calendar"></i>Mar 01, 2021</span>
-                                <h2><a href="blog/the-evolution-of-API.html">The Evolution Of API</a></h2>
-                                <p>The increasing presence of API in the post Internet era has positioned it as the ‘connecting bridge’ for the external systems ecosystem.</p>
-                                <a href="blog/the-evolution-of-API.html" class="item-link">Read More <i class="icon-chevron-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end: Post item-->
-					
-					<!-- Post item-->
-                    <div class="post-item border">
-                        <div class="post-item-wrap">
-                            <div class="post-image">
-                                <a href="blog/email-ticketing-customer-support.html">
-                                    <img alt="" src="images/blog/blog-img-06.jpg">
-                                </a>
-                            </div>
-                            <div class="post-item-description">
-                                <span class="post-meta-date"><i class="fa fa-calendar"></i>Mar 01, 2021</span>
-                                <h2><a href="blog/email-ticketing-customer-support.html">The nuances of Email ticketing</a></h2>
-                                <p>In customer support strategies, multi channel engagement solutions are pivotal for building a sustainable customer base and enabling companies to flourish. However, data security is taking centre stage...</p>
-                                <a href="blog/email-ticketing-customer-support.html" class="item-link">Read More <i class="icon-chevron-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end: Post item-->
-					
-                </div>
-                <!-- end: Blog -->
         </div>
     </section>
+    <!-- <section class="container"><div class="seperator"></div></section> -->
     <!-- end: Blog -->
     <!-- Section -->
-    <section class="fullscreen" data-bg-image="images/epicode-flute.jpg">
-        <div class="bg-overlay" data-style="4" ></div>
-        <div class="shape-divider" data-style="4" data-position="top" data-flip-vertical="true" ></div>
+    <!-- end: Section -->
+    <!-- Footer -->
+    <section class="fullscreen" data-bg-image="images/epicode-irahive.jpg">
+        <div class="bg-overlay" data-style="4"></div>
+        <div class="shape-divider" data-style="4" data-position="top" data-flip-vertical="true"></div>
         <div class="shape-divider" data-style="4"></div>
         <div class="container">
-            <div class="container-fullscreen">
+            <div class="container-halfscreen">
                 <div class="text-middle">
                     <div class="heading-text text-light col-lg-12">
-                        <h2 class="font-weight-800" style="text-align: center;"><span >Flute</span></h2>
-                        <p style="color:#ffffff!important; font-size: 35px; text-align: center;">Empower your CRM with Flute, the Telephony Enabler Stack</p>
+                        <h2 class="font-weight-600" style="text-align: center;"><span>Ready to start building?</span></h2>
+                        <p style="color:#ffffff!important; font-size: 30px; text-align: center;">Contact us and get 1 month free trial</p>
+                        <div style="text-align: center;">
+                            <a href="contact-us.html" class="btn scroll-to">Get Started</a>
+                        </div>
                         <!--  <a href="#" class="btn btn-light btn-outline btn-rounded">Know more</a> -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- end: Section -->
-    <!-- Footer -->
     <script type="text/javascript" src="js/footer-home.js"></script>
     <!-- end: Footer -->
     <!-- end: Body Inner -->
@@ -317,5 +353,20 @@
     <!--Pageloader plugin files-->
     <script src="plugins/pageloader/pageloader.js"></script>
     <script src="plugins/pageloader/pageloader.init.js"></script>
+    <script>
+        const codeEditor = CodeMirror.fromTextArea(document.getElementById("api_code_sample"), {
+            lineNumbers: true,
+            mode: "javascript",
+            theme: "neo",
+            autoRefresh: true,
+            firstLineNumber: 1,
+            smartIndent: true,
+            lineWrapping: true,
+            indentWithTabs: true,
+            refresh: true,
+            minLines: 10,
+            readOnly: "nocursor"
+        });
+    </script>
 </body>
 </html>

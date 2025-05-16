@@ -4120,12 +4120,13 @@ h6.font-parisienne {
     SLIDER
 -----------------------------------------------------------------*/
 .inspiro-slider {
-  width: 100%;
-  height: 72vh;
-  overflow: hidden;
-  transition: opacity .3s ease;
-  min-height: 100%;
-  width: 100%;
+    width: 100%;
+    height: 72vh;
+    overflow: hidden;
+    transition: opacity .3s ease;
+    min-height: 100%;
+    width: 100%;
+   
 }
 .inspiro-slider.slider-halfscreen {
   height: 72vh;
@@ -4138,14 +4139,14 @@ h6.font-parisienne {
   transition: opacity 0.5s ease !important;
 }
 .inspiro-slider.is-fade .slide.is-selected {
-  opacity: 1 !important;
+  opacity: 1.0 !important;
 }
 .inspiro-slider .slide {
   overflow: hidden;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-position: 50% 20%;
   z-index: 1;
   width: 100%;
@@ -4168,7 +4169,7 @@ h6.font-parisienne {
   margin-bottom: 30px;
   color: #ffffff;
 }
-.inspiro-slider .slide .slide-captions h2 {
+.inspiro-slider .slide .slide-captions h7 {
   font-size: 60px;
   font-weight: 700;
   line-height: 68px;
@@ -11254,26 +11255,26 @@ a:not([href]):not([tabindex]):not(.btn) {
 button.btn,
 .btn:not(.close):not(.mfp-close),
 a.btn:not([href]):not([tabindex]) {
-  font-family: "Poppins", sans-serif;
-  border-radius: 5px 5px 5px 5px;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: .5px;
-  text-decoration: none;
-  outline: none;
-  padding: 12px 18px;
-  position: relative;
-  text-transform: uppercase;
-  background-color: #2250fc;
-  border-color: #2250fc;
-  border-width: 1px;
-  border-style: solid;
-  color: #ffffff;
-  transition: all 0.3s;
-  margin-bottom: 6px;
-  outline: none;
-  line-height: 14px;
-  cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    text-decoration: none;
+    outline: none;
+    padding: 12px 18px;
+    position: relative;
+    text-transform: uppercase;
+    background-color: #b22325;
+    border-color: #b22325;
+    border-width: 1px;
+    border-style: solid;
+    color: #ffffff;
+    transition: all 0.3s;
+    margin-bottom: 6px;
+    outline: none;
+    line-height: 14px;
+    cursor: pointer;
 }
 button.btn:after,
 .btn:not(.close):not(.mfp-close):after,
@@ -18269,9 +18270,10 @@ body.breakpoint-xs .box-fancy [class*="col-"] {
 }
 
 [data-bg-image] {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    
 }
 [data-bg-image]::before {
   position: absolute;
@@ -18280,7 +18282,7 @@ body.breakpoint-xs .box-fancy [class*="col-"] {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 1;
+  opacity: 0.5;
   background-color: #181818;
   transition: opacity .5s linear;
 }
@@ -18667,8 +18669,16 @@ body[data-bg-image] {
     background-image: url('../images/products/epicode-iradialer.jpg');
 }
 
-.head-image-bot-compose {
-  background-image: url('../images/products/bot-compose.jpg');
+.head-image-botstream {
+    background-image: url('../images/products/epicode-botstream.jpg');
+}
+
+.head-image-botcompose {
+    background-image: url('../images/products/epicode-botcompose.jpg');
+}
+
+.head-image-iratap {
+  background-image: url('../images/products/epicode-iratap.jpg');
 }
 
 .head-image-telephonysuite {
@@ -18678,15 +18688,6 @@ body[data-bg-image] {
 .head-image-invoiceprocessing {
     background-image: url('../images/products/epicode-invoice-processing.jpg');
 }
-
-.head-image-botstream {
-    background-image: url('../images/products/epicode-botstream.jpg');
-}
-
-.head-image-iratap{
-  background-image: url('../images/products/iratap12.jpg');
-}
-
 /* ------------Customized by Amit------------------- */
 
 /* ------------Feature Comparison Table for IraHelpDesk------------------- */
@@ -18943,4 +18944,127 @@ body[data-bg-image] {
     .banner-title {
       margin-bottom: 16px;
     }
-  } 
+  }
+
+.vid-border {
+    display: block;
+    border-top: 10px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.5);
+}
+
+
+/* 
+---------------------------------------------
+banner
+--------------------------------------------- 
+*/
+
+.swiper-container {
+    height: calc(100vh - 0px);
+    margin: 0px;
+    background-color: #212741;
+}
+
+.swiper-slide {
+    overflow: hidden;
+}
+
+.slidet {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-slide-active h2 {
+    animation: fadeInLeft .8s;
+    -webkit-animation-delay: 1s;
+    animation-delay: .3s;
+    opacity: 1;
+}
+
+.swiper-slide-active p {
+    animation: fadeInRight .8s;
+    -webkit-animation-delay: 1s;
+    animation-delay: .3s;
+    opacity: 1;
+}
+
+.swiper-slide-active .div-dec {
+    animation: fadeIn .8s;
+    -webkit-animation-delay: 1s;
+    animation-delay: .3s;
+    opacity: 1;
+}
+
+.swiper-slide-active .buttons .green-button,
+.swiper-slide-active .buttons .orange-button {
+    animation: fadeInUp .8s;
+    -webkit-animation-delay: 1s;
+    animation-delay: .3s;
+    opacity: 1;
+}
+
+.slidet .header-text {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.inspiro-slider .slide .slide-captions h2 {
+    position: relative;
+    z-index: 2;
+    font-size: 56px;
+    color: #fff;
+    font-weight: 700;
+    opacity: 1;
+    visibility: visible;
+    line-height: 70px;
+    margin-bottom: 40px;
+}
+
+   
+    .slidet .div-dec {
+        width: 80px;
+        height: 6px;
+        border-radius: 3px;
+        background-color: #fff;
+        margin-bottom: 40px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .slidet .header-text p {
+        color: #fff;
+        margin-right: 60px;
+        margin-bottom: 50px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+.inspiro-slider .slide .slide-captions h2 {
+    font-style: normal;
+    color: #ff511a;
+}
+
+    .slidet .header-text .buttons {
+        display: inline;
+        opacity: 1;
+        visibility: visible;
+    }
+
+        .slidet .header-text .buttons .green-button {
+            display: inline;
+            float: left;
+            margin-right: 20px;
+        }
+
+.swiper-button-next, .swiper-button-prev {
+    color: #fff !important;
+}
+
+

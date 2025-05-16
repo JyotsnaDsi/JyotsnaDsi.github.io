@@ -59,7 +59,7 @@ document.write('<ul class=\"dropdown-menu\">\n');
 document.write('<li><a href=\"../products/epicode-iracpa.html\">IraCPA</a></li>\n');
 document.write('<li><a href=\"../products/epicode-iradialer.html\">IraDialer</a></li>\n');
 document.write('<li><a href=\"../products/epicode-irapda.html\">IraPDA</a></li>\n');
-//document.write('<li><a href=\"../products/epicode-iratap.html\">IraTap</a></li>\n');
+document.write('<li><a href=\"../products/epicode-iratap.html\">IraTap</a></li>\n');
 
 document.write('</ul>\n');
 document.write('</li>');
@@ -71,10 +71,8 @@ document.write('</ul>\n');
 document.write( '</li>\n' );
 document.write('<li class=\"dropdown\"><a href=\"../solutions.html\">Solutions</a>\n');
 document.write('<ul class=\"dropdown-menu\">\n');
-document.write('<li><a href=\"../solutions/epicode-sahaya-omnichannel.html\">OmniChannel CX Platform - Sahaya</a></li>\n');
 document.write('<li><a href=\"../solutions/epicode-outbound-dialer.html\">Outbound Dialer for CRM </a></li>\n');
 document.write('<li><a href=\"../solutions/epicode-telephony-suite.html\">Telephony Suite for CRM</a></li>\n');
-document.write('<li><a href=\"../solutions/epicode-automated-invoice.html\">Automated Invoice Processing </a></li>\n');
 document.write( '</ul>\n' ); 
 document.write('</li>\n');
 
@@ -86,8 +84,8 @@ document.write('</li>\n');
 
 document.write('<li class=\"dropdown\"><a href=\"../resources/blog.html\">Resources</a>\n');
 document.write('<ul class=\"dropdown-menu\">\n');
-document.write('<li><a href=\"../resources/blog.html\">BLOG</a></li>\n');
 document.write('<li><a href=\"../resources/faq.html\">FAQ\'s</a></li>\n');
+document.write('<li><a href=\"../resources/downloads.html\">Downloads</a></li>\n');
 
 document.write('</ul>\n');
 document.write('</li>');

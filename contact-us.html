@@ -3,25 +3,27 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="" />    
+    <meta name="author" content="" />
     <meta name="description" content="Let us meet">
-    <link rel="icon" type="image/png" href="images/favicon.png">   
+    <link rel="icon" type="image/png" href="images/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
     <title>Contact Us - Epicode</title>
     <!-- Stylesheets & Fonts -->
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166808848-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <link href="css/fontawesome.css" rel="stylesheet">
+    <link href="css/reusable-styles.css" rel="stylesheet">
 
-  gtag('config', 'UA-166808848-1');
-</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166808848-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-166808848-1');
+    </script>
 </head>
     
 <body data-icon="14">
@@ -45,69 +47,109 @@
         </div>
         <!--end: Inspiro Slider -->
 <!-- CONTENT -->
-        <section>
-            <div class="container">
-                <div class="row"><!--
-                    <div class="col-lg-6">
-                        <h3 class="text-uppercase">Get In Touch</h3>
-                        <p>The most happiest time of the day!. Suspendisse condimentum porttitor cursus. Duis nec nulla turpis. Nulla lacinia laoreet odio, non lacinia nisl malesuada vel. Aenean malesuada fermentum bibendum.</p>
-                        <div class="m-t-30">
-                            <form class="widget-contact-form" novalidate action="include/contact-form.php" role="form" method="post">
-                                <div class="row">
-                                    <div class="form-group col-md-6">
-                                        <label for="name">Name</label>
-                                        <input type="text" aria-required="true" name="widget-contact-form-name" required class="form-control required name" placeholder="Enter your Name">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label for="email">Email</label>
-                                        <input type="email" aria-required="true" name="widget-contact-form-email" required class="form-control required email" placeholder="Enter your Email">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-md-12">
-                                        <label for="subject">Your Subject</label>
-                                        <input type="text" name="widget-contact-form-subject" required class="form-control required" placeholder="Subject...">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="message">Message</label>
-                                    <textarea type="text" name="widget-contact-form-message" required rows="5" class="form-control required" placeholder="Enter your Message"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                                    <div class="g-recaptcha" data-sitekey="6LddCxAUAAAAAKOg0-U6IprqOZ7vTfiMNSyQT2-M"></div>
-                                </div>
-                                <button class="btn" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Send message</button>
-                            </form>
-                        </div>
-                      <div class="social-icons m-t-30 social-icons-colored">
-                            <ul>
-                                <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                <li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
-                            </ul>
-                        </div>  
-                    </div>
-                    --><div class="col-lg-12">
-                        <h3 class="text-uppercase">Address &amp; Map</h3>
+<section style="background-color: rgb(250, 250, 250);">
+    <div class="m-4">
+        <div class="flex flex-row justify-center flex-grow flex-wrap">        
+            <div class="col-lg-4 rounded-md shadow-sm p-4 bg-gray mb-4">
+                <h3 class="text-uppercase">Get In Touch &#128075;</h3>
+                <p>Please share your info and we'll get back to you ASAP</p>
+                <div class="m-t-30">
+                    <form class="widget-contact-form" id="contactForm" novalidate action="https://mailerweb.epicode.in/send_email" role="form" method="post">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <address style="line-height: 28px;">
-                                    <strong>EPICODE.</strong><br>
-                                    <i class="fa fa-map-marker-alt"></i> Unit # 2201A, 22nd Floor, World Trade Centre, Rajajinagar, Bangalore - 560055.<br>
-                                    <i class="far fa-envelope"></i>  <a href="mailto:enquire@epicode.in">enquire@epicode.in</a>
-                                </address>
+                            <div class="form-group col-md-6">
+                                <label for="name">Name<span style="color:red">*</span></label>
+                                <input type="text" aria-required="true" name="name" required class="form-control required name" placeholder="Enter your Name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Email<span style="color:red">*</span></label>
+                                <input type="email" aria-required="true" name="email" required class="form-control required email" placeholder="Enter your Email">
                             </div>
                         </div>
-                        <!-- Google Map -->
-                        <!--<div class="map" data-latitude="-37.817240" data-longitude="144.955826" data-style="light" data-info="Welcome to EPICODE"></div>-->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3898558688816!2d77.55391635081696!3d13.01082761749071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3db36f02d5b9%3A0xde2ade219027cf68!2sWorld%20Trade%20Center!5e0!3m2!1sen!2sin!4v1609426729739!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        <!-- end: Google Map -->
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="phone_number">Phone Number</label>
+                                <input type="text" name="phone_number"  class="form-control " placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="product">Product</label>
+                            <!--<input type="text" name="product" required class="form-control required" placeholder="Product">-->
+                            <select name="product" class="form-control required"  >
+                                <option value="BotStream">BotStream</option>
+                                <option value="IraCPA">IraCPA</option>
+                                <option value="IraDialer">IraDialer</option>
+                                <option value="IraPDA">IraPDA</option>
+                                <option value="Others">Others</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message<span style="color:red">*</span></label>
+                            <textarea type="text" name="message" required rows="5" class="form-control" placeholder="Enter your Message"></textarea>
+                        </div>
+                        <!--<div class="form-group">
+                            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                            <div class="g-recaptcha" data-sitekey="6LddCxAUAAAAAKOg0-U6IprqOZ7vTfiMNSyQT2-M"></div>
+                        </div>-->
+                        <button class="btn mt-4" type="submit" id="form-submit" onclick="submitForm(event)"><i class="fa fa-paper-plane"></i>&nbsp;Send message</button>
+                        <div id="messageContainer"></div>
+                    </form>
+                    <div id="messageContainer"></div>
+                </div>
+            <!--<div class="social-icons m-t-30 social-icons-colored">
+                    <ul>
+                        <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>-->
+            </div>
+            <div class="col-lg-8">
+                <!-- <h3 class="text-uppercase">Address &amp; Map</h3> -->
+                <div class="flex flex-col gap-4">
+                    <div class="flex flex-row flex-wrap gap-4">
+                        <div class="shadow-sm rounded-md p-4 flex flex-col flex-wrap w-10 gap-4 bg-white">
+                            <div style="line-height: 24px;">
+                                <strong style="font-size: 20px;color: #b22325">Address</strong>
+                                <hr />
+                            </div>
+                            <div class="flex flex-row items-center gap-4">
+                                <i class="fa fa-map-marker-alt text-size-md"></i> 
+                                <div>8-94-E2, Hotel Bhavani building, Eshwar nagar, NH169A, Manipal - 576104</div>
+                            </div>
+                            <!-- <div class="flex flex-row items-center gap-4">
+                                <i class="far fa-envelope text-size-md"></i>  
+                                <a href="mailto:enquire@epicode.in">enquire@epicode.in</a>
+                            </div> -->
+                        </div>
+                        <div class="shadow-sm rounded-md p-4 flex flex-col flex-wrap w-10 gap-4 bg-white">
+                            <div style="line-height: 24px;">
+                                <strong style="font-size: 20px;color: #b22325">Contact</strong>
+                                <hr />
+                            </div>
+                            <div class="flex flex-row items-center gap-4">
+                                <i class="fa fa-phone-alt text-size-md"></i> 
+                                <div>+918204611503 <br/> +918049510729</div>
+                            </div>
+                            <div class="flex flex-row items-center gap-4">
+                                <i class="far fa-envelope text-size-md"></i>  
+                                <a href="mailto:enquire@epicode.in">enquire@epicode.in</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <iframe class="rounded-md" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.922353421871!2d74.79524857632106!3d13.355104086996606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbca58d8e7b5dbb%3A0x45843bbeb981e688!2sEpicode%20Private%20Limited!5e0!3m2!1sen!2sin!4v1701067124275!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
                     </div>
                 </div>
+                <!-- Google Map -->
+                <!--<div class="map" data-latitude="-37.817240" data-longitude="144.955826" data-style="light" data-info="Welcome to EPICODE"></div>-->
+                <!-- end: Google Map -->
+                
             </div>
-        </section> <!-- end: Content -->
+        </div>
+    </div>
+</section> <!-- end: Content -->
         
 
         
@@ -117,7 +159,7 @@
         <!-- Footer -->
         <script type="text/javascript" src="js/footer.js"></script>
         <!-- end: Footer -->
-    </div> <!-- end: Body Inner -->
+    <!-- </div> end: Body Inner -->
     <!-- Scroll top -->
     <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
     <!--Plugins-->
@@ -131,7 +173,79 @@
     <!--Google Maps files-->
     <script type="text/javascript" src="plugins/gmap3/gmap3.min.js"></script>
     <script type="text/javascript" src="plugins/gmap3/map-styles.js"></script>
+    <style>
+        /* CSS style for the sent message */
+        .sent-message {
+            color: green;        /* Text color */
+            font-weight: bold;   /* Bold text */
+            margin-top: 10px;    /* Margin at the top */
+            padding: 10px;       /* Padding around the message */
+            border: 1px solid green; /* Border around the message */
+            background-color: #f2f2f2; /* Background color */
+        }
+    </style>
+    <script>
+        // Function to handle form submission with JavaScript
+        function submitForm(event) {
+            // Get the form element
+                    const form = document.getElementById('contactForm');
+                    //event.preventDefault();
+                    const bearerToken = '3p!c0ded';
 
+                    // Set the 'Authorization' header with the Bearer token
+                    const headers = new Headers();
+                    headers.append('Authorization', `Bearer ${bearerToken}`);
+
+                    // Create the request object with the custom headers
+                    const request = new Request(form.action, {
+                        method: form.method,
+                        headers: headers,
+                        body: new FormData(form)
+                    });
+                    
+                    // Submit the form with the custom headers
+                    fetch(request)
+                        .then(response => {
+                            // Handle the response from the server
+                            
+                            if(response.status == 200 )
+                            {
+                                showSentMessage();
+                                console.log('Form submitted successfully!');
+                                form.reset();
+                            }
+                            
+                            // Add your custom logic here
+                        })
+                        .catch(error => {
+                            console.error('Error submitting form:', error);
+                            // Add error handling logic here
+                        })
+                        .finally(() => {
+                            const submitButton = document.getElementById('form-submit');
+                            // Check if the button element exists
+                            if (submitButton) {
+                                // Change the button's HTML content
+                                submitButton.innerHTML = '<i class="fa fa-paper-plane"></i>&nbsp;Send message';
+                            }
+                            
+                        });
+                }
+                function showSentMessage() {
+                    const messageContainer = document.getElementById('messageContainer');
+                    const sentMessage = document.createElement('div');
+                    sentMessage.textContent = 'Form submitted successfully!';
+                    sentMessage.classList.add('sent-message');
+
+                    // Add the sent message to the container
+                    messageContainer.appendChild(sentMessage);
+                    setTimeout(removeDiv, 5000);
+                }
+                function removeDiv() {
+                        const messageDiv = document.getElementById('messageContainer');
+                        messageDiv.parentNode.removeChild(messageDiv);
+                    }
+    </script>
 </body>
 
 </html>
