@@ -52,7 +52,7 @@ document.write('<li class=\"dropdown-submenu\"><a href=\"../products/epicode-bot
 document.write('<ul class=\"dropdown-menu\">\n');
 document.write('<li><a href=\"../products/epicode-botstream.html\">BotStream</a></li>\n');
 document.write('<li><a href=\"../products/epicode-botcompose.html\">BotCompose</a></li>\n');
-document.write('<li><a href=\"products/epicode-iracpa.html\">IraCPA</a></li>\n');
+document.write('<li><a href=\"../products/epicode-iracpa.html\">IraCPA</a></li>\n');
 
 
 document.write('</ul>\n');
@@ -61,12 +61,12 @@ document.write('<ul class=\"dropdown-menu\">\n');
 document.write('<li><a href=\"../products/epicode-iracpa.html\">IraCPA</a></li>\n');
 document.write('<li><a href=\"../products/epicode-iradialer.html\">IraDialer</a></li>\n');
 document.write('<li><a href=\"../products/epicode-irapda.html\">IraPDA</a></li>\n');
-document.write('<li><a href=\"../products/epicode-iratap.html\">IraTap</a></li>\n');
+//document.write('<li><a href=\"../products/epicode-iratap.html\">IraTap</a></li>\n');
 
 document.write('</ul>\n');
 document.write('</li>');
-document.write('<li><a href=\"../products/epicode-robotasker.html\">Robotasker</a></li>\n');
-document.write('<li><a href=\"../products/epicode-irahelpdesk.html\">IraHelpDesk</a></li>\n');
+//document.write('<li><a href=\"../products/epicode-robotasker.html\">Robotasker</a></li>\n');
+//document.write('<li><a href=\"../products/epicode-irahelpdesk.html\">IraHelpDesk</a></li>\n');
 // document.write( '<li><a href=\"products/epicode-cloud-telephony-enablers.html\">Cloud Telephony Enablers</a></li>\n' );
 
 document.write('</ul>\n');
