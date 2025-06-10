@@ -61,7 +61,7 @@ document.write('<ul class=\"dropdown-menu\">\n');
 document.write('<li><a href=\"../products/epicode-iracpa.html\">IraCPA</a></li>\n');
 document.write('<li><a href=\"../products/epicode-iradialer.html\">IraDialer</a></li>\n');
 document.write('<li><a href=\"../products/epicode-irapda.html\">IraPDA</a></li>\n');
-//document.write('<li><a href=\"../products/epicode-iratap.html\">IraTap</a></li>\n');
+document.write('<li><a href=\"../products/epicode-iratap.html\">IraTap</a></li>\n');
 
 document.write('</ul>\n');
 document.write('</li>');
